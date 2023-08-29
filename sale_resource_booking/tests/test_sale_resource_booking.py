@@ -4,6 +4,7 @@
 from contextlib import suppress
 from datetime import datetime
 
+from odoo import Command
 from odoo.tests.common import Form, TransactionCase
 
 from odoo.addons.resource_booking.tests.common import create_test_data
@@ -61,11 +62,9 @@ class SaleResourceBookingsCase(TransactionCase):
         self.assertTrue(order.resource_booking_ids)
         self.assertTrue(self.rbt.booking_ids)
         self.assertEqual(self.rbt.booking_count, 2)
-        # Use wizard to quickly assign partners
-        wiz = self._run_action(action["actions"][0])
-        with Form(wiz) as wiz_f:
-            with wiz_f.resource_booking_ids.edit(1) as booking_f:
-                booking_f.partner_id = partner2
+        # Add new attendees
+        for booking in order.resource_booking_ids:
+            booking.partner_ids = [Command.link(partner2.id)]
         # Click on "Bookings" smart button
         action = order.action_open_resource_bookings()
         bookings = self._run_action(action)
@@ -78,7 +77,8 @@ class SaleResourceBookingsCase(TransactionCase):
             self.assertFalse(booking.start)
             self.assertFalse(booking.stop)
             self.assertFalse(booking.meeting_id)
-        self.assertEqual(bookings.partner_id, order.partner_id | partner2)
+            self.assertEqual(order.partner_id, booking.partner_id)
+            self.assertTrue(partner2 in booking.partner_ids)
         if self.product.resource_booking_type_combination_rel_id:
             self.assertEqual(bookings.mapped("combination_auto_assign"), [False] * 2)
             self.assertEqual(
@@ -88,7 +88,7 @@ class SaleResourceBookingsCase(TransactionCase):
         else:
             self.assertEqual(bookings.mapped("combination_auto_assign"), [True] * 2)
         # Cancel SO, bookings canceled
-        order.action_cancel()
+        order._action_cancel()
         self.assertEqual(bookings.mapped("state"), ["canceled"] * 2)
         # Delete SO lines, bookings deleted
         order.order_line.unlink()
@@ -123,7 +123,7 @@ class SaleResourceBookingsCase(TransactionCase):
         self.assertTrue(booking)
         self.assertEqual(booking.state, "pending")
         # Cancel order; booking canceled
-        order.action_cancel()
+        order._action_cancel()
         self.assertEqual(booking.state, "canceled")
         # Manually set order and booking to pending
         order.action_draft()
