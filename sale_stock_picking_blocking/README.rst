@@ -98,6 +98,7 @@ Contributors
 * Lois Rilo <lois.rilo@forgeflow.com>
 * Sudhir Arya <sudhir@erpharbor.com>
 * Julien Coux <julien.coux@camptocamp.com>
+* Souheil Bejaoui <souheil.bejaoui@acsone.eu>
 
 Maintainers
 ~~~~~~~~~~~
