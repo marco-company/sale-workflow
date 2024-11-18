@@ -3,38 +3,27 @@
 
 from odoo import api, fields, models
 
-from odoo.addons import decimal_precision as dp
-
 
 class SaleOrderLine(models.Model):
     _inherit = "sale.order.line"
 
-    unit_weight = fields.Float(
-        string="Unit Weight",
-        digits=dp.get_precision("Stock Weight"),
-    )
     total_ordered_weight = fields.Float(
         compute="_compute_total_ordered_weight",
-        string="Total Ordered Weight",
-        store=True,
-    )
-    total_delivered_weight = fields.Float(
-        compute="_compute_total_delivered_weight",
-        string="Total Delivered Weight",
+        string="Ordered Weight",
         store=True,
     )
 
-    @api.onchange("product_id")
-    def _onchange_weight(self):
-        for line in self:
-            line.unit_weight = line.product_id.weight
-
-    @api.depends("unit_weight", "product_uom_qty")
+    @api.depends(
+        "product_id.weight", "product_id.uom_id", "product_uom", "product_uom_qty"
+    )
     def _compute_total_ordered_weight(self):
         for line in self:
-            line.total_ordered_weight = line.unit_weight * line.product_uom_qty
-
-    @api.depends("unit_weight", "qty_delivered")
-    def _compute_total_delivered_weight(self):
-        for line in self:
-            line.total_delivered_weight = line.unit_weight * line.qty_delivered
+            if line.product_id:
+                line.total_ordered_weight = line.product_uom._compute_quantity(
+                    line.product_id.weight * line.product_uom_qty,
+                    line.product_id.uom_id,
+                    round=False,
+                    raise_if_failure=False,
+                )
+            else:
+                line.total_ordered_weight = 0.0

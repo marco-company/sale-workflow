@@ -7,31 +7,46 @@ _logger = logging.getLogger(__name__)
 
 def pre_init_hook(cr):
     _logger.info(
-        "sale.order.line: Create 'weight', 'total_ordered_weight' and"
+        "sale.order.line: Create 'total_ordered_weight' and"
         " 'total_delivered_weight' to be fast initialized."
     )
     cr.execute(
         """
         ALTER TABLE sale_order_line
-        ADD COLUMN IF NOT EXISTS unit_weight NUMERIC,
         ADD COLUMN IF NOT EXISTS total_ordered_weight DOUBLE PRECISION,
         ADD COLUMN IF NOT EXISTS total_delivered_weight DOUBLE PRECISION;
         """
     )
     _logger.info(
         "sale.order.line model :"
-        " Initialize 'unit weight';"
         " precompute 'total_ordered_weight' and 'total_delivered_weight'"
     )
     cr.execute(
         """
         UPDATE sale_order_line
-        SET unit_weight = product_product.weight,
-            total_ordered_weight = product_product.weight * product_uom_qty,
-            total_delivered_weight = product_product.weight * qty_delivered
-        FROM product_product
-        WHERE product_product.id = sale_order_line.product_id
-        AND product_product.weight != 0;
+        SET
+            total_ordered_weight = (
+                product.weight
+                * sale_order_line.product_uom_qty
+                / line_uom.factor
+                * template_uom.factor
+            ),
+            total_delivered_weight = (
+                product.weight
+                * sale_order_line.qty_delivered
+                / line_uom.factor
+                * template_uom.factor
+            )
+        FROM
+            product_product product,
+            product_template template,
+            uom_uom as template_uom,
+            uom_uom as line_uom
+        WHERE product.id = sale_order_line.product_id
+        AND template.id = product.product_tmpl_id
+        AND template.uom_id = template_uom.id
+        AND sale_order_line.product_uom = line_uom.id
+        AND product.weight != 0;
         """
     )
 

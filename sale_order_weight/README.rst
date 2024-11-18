@@ -28,12 +28,41 @@ Sale Order Weight
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module is used to calculate the weight in a sale order.
+This module is used to calculate the weight (Ordered Products) in a sale order.
+
+The weight can be displayed on the sale order report.
+
 
 **Table of contents**
 
 .. contents::
    :local:
+
+Configuration
+=============
+
+* Go to "Sales > Configuration > Settings"
+
+.. figure:: https://raw.githubusercontent.com/OCA/sale-workflow/16.0/sale_order_weight/static/description/configuration.png
+
+Display Order weight is checked by default.
+
+The weight display at line level is hidden by default, to avoid burdening the PDF report.
+
+Usage
+=====
+
+* Go to a sale order.
+
+The ordered weights are displayed on each order lines and at order level.
+
+.. figure:: https://raw.githubusercontent.com/OCA/sale-workflow/16.0/sale_order_weight/static/description/sale_order_form.png
+
+Note: The weight are also available on the order tree view. (hidden by default)
+
+* Print a sale order.
+
+.. figure:: https://raw.githubusercontent.com/OCA/sale-workflow/16.0/sale_order_weight/static/description/sale_order_report.png
 
 Bug Tracker
 ===========
@@ -51,12 +80,14 @@ Credits
 Authors
 ~~~~~~~
 
+* GRAP
 * Xtendoo
 
 Contributors
 ~~~~~~~~~~~~
 
 * Manuel Calero - https://xtendoo.es <manuelcalerosolis@gmail.com>
+* Sylvain LE GAL
 
 Maintainers
 ~~~~~~~~~~~
