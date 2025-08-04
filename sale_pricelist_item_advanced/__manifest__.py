@@ -1,7 +1,7 @@
 {
     "name": "Sale Pricelist Item Advanced",
     "summary": """Pricelist items menu""",
-    "version": "14.0.1.0.0",
+    "version": "16.0.1.0.0",
     "license": "AGPL-3",
     "category": "Sales",
     "author": "Ilyas, Ooops404,Odoo Community Association (OCA)",

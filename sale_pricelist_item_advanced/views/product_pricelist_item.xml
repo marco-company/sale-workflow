@@ -4,6 +4,7 @@
         <field name="model">product.pricelist.item</field>
         <field name="arch" type="xml">
             <form string="Pricelist Items">
+                <field name="company_id" invisible="1" />
                 <sheet>
                     <h1>
                         <field name="name" />
@@ -133,17 +134,14 @@
                         </div>
                         <label string=" + " for="price_surcharge" />
                         <field name="price_surcharge" nolabel="1" />
-
                         <field name="price_round" string="Rounding Method" />
                         <field name="price_min_margin" string="Min. Margin" />
                         <field name="price_max_margin" string="Max. Margin" />
                     </group>
-
                 </sheet>
             </form>
         </field>
     </record>
-
     <record id="product_product_pricelist_view" model="ir.ui.view">
         <field name="name">product.pricelist.form</field>
         <field name="model">product.pricelist</field>
@@ -159,7 +157,6 @@
             </data>
         </field>
     </record>
-
     <record id="product_pricelist_item_view_search_inherit" model="ir.ui.view">
         <field name="model">product.pricelist.item</field>
         <field name="inherit_id" ref="product.product_pricelist_item_view_search" />
@@ -172,7 +169,6 @@
             </field>
         </field>
     </record>
-
     <record id="product_pricelist_item_revision_tree_view" model="ir.ui.view">
         <field name="model">product.pricelist.item</field>
         <field name="inherit_id" ref="product.product_pricelist_item_tree_view" />
@@ -211,7 +207,6 @@
             </field>
         </field>
     </record>
-
     <record id="product_pricelist_item_action" model="ir.actions.act_window">
         <field name="name">Pricelist Items</field>
         <field name="res_model">product.pricelist.item</field>
@@ -224,7 +219,6 @@
         />
         <field name="context" />
     </record>
-
     <menuitem
         action="product_pricelist_item_action"
         id="menu_product_pricelist_item_action"
