@@ -21,6 +21,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
+[account_invoice_pricelist_technical](account_invoice_pricelist_technical/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Prevent technical pricelists from being selected on invoice forms
 [partner_contact_sale_info_propagation](partner_contact_sale_info_propagation/) | 16.0.1.0.1 |  | Propagate Salesperson and Sales Channel from Company to Contacts
 [partner_sale_pivot](partner_sale_pivot/) | 16.0.1.0.0 | <a href='https://github.com/ernestotejeda'><img src='https://github.com/ernestotejeda.png' width='32' height='32' style='border-radius:50%;' alt='ernestotejeda'/></a> | Sales analysis from customer form view
 [portal_sale_order_search](portal_sale_order_search/) | 16.0.1.0.1 | <a href='https://github.com/pilarvargas-tecnativa'><img src='https://github.com/pilarvargas-tecnativa.png' width='32' height='32' style='border-radius:50%;' alt='pilarvargas-tecnativa'/></a> | Allow customers to set and search their own order reference in portal

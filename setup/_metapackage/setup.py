@@ -8,6 +8,7 @@ setuptools.setup(
     description="Meta package for oca-sale-workflow Odoo addons",
     version=version,
     install_requires=[
+        'odoo-addon-account_invoice_pricelist_technical>=16.0dev,<16.1dev',
         'odoo-addon-partner_contact_sale_info_propagation>=16.0dev,<16.1dev',
         'odoo-addon-partner_sale_pivot>=16.0dev,<16.1dev',
         'odoo-addon-portal_sale_order_search>=16.0dev,<16.1dev',
