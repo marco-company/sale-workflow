@@ -28,6 +28,7 @@ msgid "Sales Order"
 msgstr "Pedido de venta"
 
 #. module: sale_readonly_security
+#. odoo-python
 #: code:addons/sale_readonly_security/models/sale_order.py:0
 #, python-format
 msgid ""
