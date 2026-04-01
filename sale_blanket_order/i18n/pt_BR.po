@@ -6,13 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-04-01 15:08+0000\n"
+"Last-Translator: Cristiano Mafra Junior <cristiano.mafracontanto@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: sale_blanket_order
 #. odoo-python
@@ -25,139 +27,146 @@ msgid ""
 "                    of the proper type.\n"
 "                    "
 msgstr ""
+"\n"
+"                    VocÃª nÃ£o pode alterar o tipo de uma linha de pedido de "
+"venda.\n"
+"                    Em vez disso, exclua a linha atual e crie uma nova "
+"linha\n"
+"                    do tipo adequado.\n"
+"                    "
 
 #. module: sale_blanket_order
 #: model:ir.actions.report,print_report_name:sale_blanket_order.report_blanket_order
 msgid "'Blanket Order - %s' % object.name"
-msgstr ""
+msgstr "'Pedido em Aberto - %s' % object.name"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<span>Blanket Order # </span>"
-msgstr ""
+msgstr "<span>Pedido em Aberto # </span>"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<strong class=\"mr16\">Subtotal</strong>"
-msgstr ""
+msgstr "<strong class=\"mr16\">Subtotal</strong>"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<strong>Currency:</strong>"
-msgstr ""
+msgstr "<strong>Moeda:</strong>"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<strong>Salesperson:</strong>"
-msgstr ""
+msgstr "<strong>Vendedor:</strong>"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<strong>Subtotal</strong>"
-msgstr ""
+msgstr "<strong>Subtotal</strong>"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<strong>Total</strong>"
-msgstr ""
+msgstr "<strong>Total</strong>"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<strong>Validity Date:</strong>"
-msgstr ""
+msgstr "<strong>Data de Validade:</strong>"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "<strong>Your Reference:</strong>"
-msgstr ""
+msgstr "<strong>Sua Referência:</strong>"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_needaction
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Ação Necessária"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_ids
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_ids
 msgid "Activities"
-msgstr ""
+msgstr "Atividades"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_exception_decoration
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "DecoraÃ§Ã£o de ExceÃ§Ã£o de Atividade"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_state
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_state
 msgid "Activity State"
-msgstr ""
+msgstr "Estado da Atividade"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_type_icon
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_type_icon
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Ãcone do Tipo de Atividade"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Add a note"
-msgstr ""
+msgstr "Adicionar uma nota"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Add a product"
-msgstr ""
+msgstr "Adicionar um produto"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Add a section"
-msgstr ""
+msgstr "Adicionar uma seÃ§Ã£o"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "Amount"
-msgstr ""
+msgstr "Valor"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/wizard/create_sale_orders.py:0
 #, python-format
 msgid "An order can't be empty"
-msgstr ""
+msgstr "Um pedido nÃ£o pode estar vazio"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__analytic_distribution
 msgid "Analytic"
-msgstr ""
+msgstr "Analá­tico"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__analytic_account_id
 msgid "Analytic Account"
-msgstr ""
+msgstr "Conta AnalÃ­tica"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__analytic_distribution_search
 msgid "Analytic Distribution Search"
-msgstr ""
+msgstr "Pesquisa de DistribuiÃ§Ã£o AnalÃ­tica"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__analytic_precision
 msgid "Analytic Precision"
-msgstr ""
+msgstr "PrecisÃ£o AnalÃ­tica"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_attachment_count
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Quantidade de Anexos"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__blanket_line_id
 msgid "Blanket Line"
-msgstr ""
+msgstr "Linha do Pedido em Aberto"
 
 #. module: sale_blanket_order
 #: model:ir.actions.report,name:sale_blanket_order.report_blanket_order
@@ -165,40 +174,40 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard__blanket_order_id
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Blanket Order"
-msgstr ""
+msgstr "Pedido em Aberto"
 
 #. module: sale_blanket_order
 #: model:ir.model,name:sale_blanket_order.model_sale_blanket_order_line
 msgid "Blanket Order Line"
-msgstr ""
+msgstr "Linha do Pedido em Aberto"
 
 #. module: sale_blanket_order
 #: model:ir.actions.act_window,name:sale_blanket_order.act_open_sale_blanket_order_lines_view_tree
 #: model:ir.ui.menu,name:sale_blanket_order.menu_sale_blanket_order_line
 msgid "Blanket Order Lines"
-msgstr ""
+msgstr "Linhas de Pedido em Aberto"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_order_line__blanket_order_line
 msgid "Blanket Order line"
-msgstr ""
+msgstr "Linha do Pedido em Aberto"
 
 #. module: sale_blanket_order
 #: model:ir.actions.act_window,name:sale_blanket_order.act_open_blanket_order_view
 #: model:ir.ui.menu,name:sale_blanket_order.menu_blanket_order_config
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.sale_config_settings_form_view
 msgid "Blanket Orders"
-msgstr ""
+msgstr "Pedidos em Aberto"
 
 #. module: sale_blanket_order
 #: model:ir.model,name:sale_blanket_order.model_sale_blanket_order_wizard
 msgid "Blanket order wizard"
-msgstr ""
+msgstr "Assistente de pedido em aberto"
 
 #. module: sale_blanket_order
 #: model:ir.model,name:sale_blanket_order.model_sale_blanket_order_wizard_line
 msgid "Blanket order wizard line"
-msgstr ""
+msgstr "Linha do assistente de pedido em aberto"
 
 #. module: sale_blanket_order
 #. odoo-python
@@ -207,12 +216,14 @@ msgstr ""
 msgid ""
 "Can not create Sale Order from Blanket Order lines with different currencies"
 msgstr ""
+"NÃ£o Ã© possÃ­vel criar Pedido de Venda a partir de linhas de Pedido em "
+"Aberto com moedas diferentes"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_create_sale_order
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #. module: sale_blanket_order
 #. odoo-python
@@ -222,45 +233,49 @@ msgid ""
 "Cannot confirm order %s as one of the lines refers to a blanket order that "
 "has no remaining quantity."
 msgstr ""
+"NÃ£o Ã© possÃ­vel confirmar o pedido %s, pois uma das linhas se refere a um "
+"pedido em aberto sem quantidade restante."
 
 #. module: sale_blanket_order
 #: model_terms:ir.actions.act_window,help:sale_blanket_order.act_open_blanket_order_view
 msgid ""
 "Click to create a blanket order that can be converted into a sale order."
 msgstr ""
+"Clique para criar um pedido em aberto que pode ser convertido em pedido de "
+"venda."
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__company_id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__company_id
 msgid "Company"
-msgstr ""
+msgstr "Empresa"
 
 #. module: sale_blanket_order
 #: model:ir.model,name:sale_blanket_order.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "ConfiguraÃ§Ãµes"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmar"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__confirmed
 msgid "Confirmed"
-msgstr ""
+msgstr "Confirmado"
 
 #. module: sale_blanket_order
 #: model:ir.actions.act_window,name:sale_blanket_order.action_create_sale_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_create_sale_order
 msgid "Create Sale Order"
-msgstr ""
+msgstr "Criar Pedido de Venda"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_create_sale_order
 msgid "Create and View Order"
-msgstr ""
+msgstr "Criar e Visualizar Pedido"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__create_uid
@@ -268,7 +283,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard__create_uid
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Criado por"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__create_date
@@ -276,63 +291,65 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard__create_date
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Criado em"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__currency_id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__currency_id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "Moeda"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__partner_id
 msgid "Customer"
-msgstr ""
+msgstr "Cliente"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__client_order_ref
 msgid "Customer Reference"
-msgstr ""
+msgstr "ReferÃªncia do Cliente"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/models/blanket_orders.py:0
 #, python-format
 msgid "Date Scheduled"
-msgstr ""
+msgstr "Data Agendada"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_search
 msgid "Delivered Qty"
-msgstr ""
+msgstr "Qtd. Entregue"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__delivered_uom_qty
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__delivered_uom_qty
 msgid "Delivered quantity"
-msgstr ""
+msgstr "Quantidade entregue"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__name
 msgid "Description"
-msgstr ""
+msgstr "DescriÃ§Ã£o"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_order__disable_adding_lines
 msgid "Disable Adding Lines"
-msgstr ""
+msgstr "Desabilitar adiÃ§Ã£o de linhas"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_res_config_settings__group_blanket_disable_adding_lines
 msgid "Disable adding more lines to SOs"
-msgstr ""
+msgstr "Desabilitar adiÃ§Ã£o de mais linhas aos pedidos de venda"
 
 #. module: sale_blanket_order
 #: model:res.groups,name:sale_blanket_order.blanket_orders_disable_adding_lines
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.sale_config_settings_form_view
 msgid "Disable adding more lines to SOs from Blanket Orders"
 msgstr ""
+"Desabilitar adiÃ§Ã£o de mais linhas aos pedidos de venda vindos de pedidos "
+"em aberto"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__display_name
@@ -340,67 +357,67 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard__display_name
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nome Exibido"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__display_type
 msgid "Display Type"
-msgstr ""
+msgstr "Tipo de ExibiÃ§Ã£o"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields.selection,name:sale_blanket_order.selection__sale_blanket_order__state__done
 msgid "Done"
-msgstr ""
+msgstr "ConcluÃ­do"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields.selection,name:sale_blanket_order.selection__sale_blanket_order__state__draft
 msgid "Draft"
-msgstr ""
+msgstr "Rascunho"
 
 #. module: sale_blanket_order
 #: model:ir.actions.server,name:sale_blanket_order.expired_blanket_orders_cron_ir_actions_server
 #: model:ir.cron,cron_name:sale_blanket_order.expired_blanket_orders_cron
 msgid "Expire Blanket Orders"
-msgstr ""
+msgstr "Expirar Pedidos em Aberto"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields.selection,name:sale_blanket_order.selection__sale_blanket_order__state__expired
 msgid "Expired"
-msgstr ""
+msgstr "Expirado"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__fiscal_position_id
 msgid "Fiscal Position"
-msgstr ""
+msgstr "PosiÃ§Ã£o Fiscal"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_follower_ids
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Seguidores"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_partner_ids
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Seguidores (Parceiros)"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__activity_type_icon
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Ãcone Font Awesome, por exemplo: fa-tasks"
 
 #. module: sale_blanket_order
 #: model:ir.model.constraint,message:sale_blanket_order.constraint_sale_blanket_order_line_non_accountable_null_fields
 msgid "Forbidden values on non-accountable sale order line"
-msgstr ""
+msgstr "Valores proibidos em linha de pedido de venda nÃ£o contabilizÃ¡vel"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__has_message
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "Possui Mensagem"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__id
@@ -408,53 +425,53 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard__id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_exception_icon
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "Ãcone"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__activity_exception_icon
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Ãcone para indicar uma atividade com exceÃ§Ã£o."
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__message_needaction
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Se marcado, novas mensagens exigem sua atenÃ§Ã£o."
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__message_has_error
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Se marcado, algumas mensagens tÃªm erro de entrega."
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_search
 msgid "Invoiced Qty"
-msgstr ""
+msgstr "Qtd. Faturada"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__invoiced_uom_qty
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__invoiced_uom_qty
 msgid "Invoiced quantity"
-msgstr ""
+msgstr "Quantidade faturada"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Invoicing"
-msgstr ""
+msgstr "Faturamento"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_is_follower
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "Ã‰ Seguidor"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order____last_update
@@ -462,7 +479,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard____last_update
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Ãšltima ModificaÃ§Ã£o em"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__write_uid
@@ -470,7 +487,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard__write_uid
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Ãšltima AtualizaÃ§Ã£o por"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__write_date
@@ -478,145 +495,146 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard__write_date
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Ãšltima AtualizaÃ§Ã£o em"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard__line_ids
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Lines"
-msgstr ""
+msgstr "Linhas"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_main_attachment_id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_main_attachment_id
 msgid "Main Attachment"
-msgstr ""
+msgstr "Anexo Principal"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_has_error
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Erro de Entrega de Mensagem"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_ids
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Mensagens"
 
 #. module: sale_blanket_order
 #: model:ir.model.constraint,message:sale_blanket_order.constraint_sale_blanket_order_line_accountable_required_fields
 msgid "Missing required fields on accountable sale order line."
 msgstr ""
+"Campos obrigatÃ³rios ausentes na linha contabilizÃ¡vel do pedido de venda."
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/models/blanket_orders.py:0
 #, python-format
 msgid "Must have some lines"
-msgstr ""
+msgstr "Deve ter algumas linhas"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__my_activity_date_deadline
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Prazo da Minha Atividade"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__name
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_calendar_event_id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr ""
+msgstr "PrÃ³ximo Evento de CalendÃ¡rio da Atividade"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_date_deadline
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr ""
+msgstr "PrÃ³ximo Prazo de Atividade"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_summary
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_summary
 msgid "Next Activity Summary"
-msgstr ""
+msgstr "Resumo da PrÃ³xima Atividade"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_type_id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_type_id
 msgid "Next Activity Type"
-msgstr ""
+msgstr "Tipo da PrÃ³xima Atividade"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__note
 #: model:ir.model.fields.selection,name:sale_blanket_order.selection__sale_blanket_order_line__display_type__line_note
 msgid "Note"
-msgstr ""
+msgstr "Nota"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_needaction_counter
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "NÃºmero de AÃ§Ãµes"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_has_error_counter
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "NÃºmero de erros"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__message_needaction_counter
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "NÃºmero de mensagens que exigem aÃ§Ã£o"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__message_has_error_counter
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "NÃºmero de mensagens com erro de entrega"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields.selection,name:sale_blanket_order.selection__sale_blanket_order__state__open
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_search
 msgid "Open"
-msgstr ""
+msgstr "Aberto"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__order_id
 msgid "Order"
-msgstr ""
+msgstr "Pedido"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Order Lines"
-msgstr ""
+msgstr "Linhas do Pedido"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__line_ids
 msgid "Order lines"
-msgstr ""
+msgstr "Linhas do pedido"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_search
 msgid "Ordered Qty"
-msgstr ""
+msgstr "Qtd. Pedida"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__ordered_uom_qty
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__ordered_uom_qty
 msgid "Ordered quantity"
-msgstr ""
+msgstr "Quantidade pedida"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_order__blanket_order_id
 msgid "Origin blanket order"
-msgstr ""
+msgstr "Pedido em aberto de origem"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
@@ -624,48 +642,48 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_search
 msgid "Original Qty"
-msgstr ""
+msgstr "Qtd. Original"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__original_uom_qty
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__original_uom_qty
 msgid "Original quantity"
-msgstr ""
+msgstr "Quantidade original"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Other Information"
-msgstr ""
+msgstr "Outras InformaÃ§Ãµes"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__partner_id
 msgid "Partner"
-msgstr ""
+msgstr "Parceiro"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/models/blanket_orders.py:0
 #, python-format
 msgid "Partner is mandatory"
-msgstr ""
+msgstr "Parceiro Ã© obrigatÃ³rio"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__payment_term_id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__payment_term_id
 msgid "Payment Terms"
-msgstr ""
+msgstr "CondiÃ§Ãµes de Pagamento"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__price_unit
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__price_unit
 msgid "Price"
-msgstr ""
+msgstr "PreÃ§o"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__pricelist_id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__pricelist_id
 msgid "Pricelist"
-msgstr ""
+msgstr "Lista de PreÃ§os"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__product_id
@@ -673,153 +691,154 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__product_id
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "Product"
-msgstr ""
+msgstr "Produto"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard__sale_order_id
 msgid "Purchase Order"
-msgstr ""
+msgstr "Pedido de Compra"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/models/blanket_orders.py:0
 #, python-format
 msgid "Quantity must be greater than zero"
-msgstr ""
+msgstr "A quantidade deve ser maior que zero"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__qty
 msgid "Quantity to Order"
-msgstr ""
+msgstr "Quantidade a Pedir"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_search
 msgid "Remaining Qty"
-msgstr ""
+msgstr "Qtd. Restante"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__remaining_uom_qty
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__remaining_uom_qty
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__remaining_uom_qty
 msgid "Remaining quantity"
-msgstr ""
+msgstr "Quantidade restante"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__remaining_qty
 msgid "Remaining quantity in base UoM"
-msgstr ""
+msgstr "Quantidade restante na UdM base"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__user_id
 msgid "Responsible"
-msgstr ""
+msgstr "ResponsÃ¡vel"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_user_id
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_user_id
 msgid "Responsible User"
-msgstr ""
+msgstr "UsuÃ¡rio ResponsÃ¡vel"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/wizard/create_sale_orders.py:0
 #, python-format
 msgid "Sale Blanket Order %s is not open"
-msgstr ""
+msgstr "O Pedido em Aberto de Venda %s nÃ£o estÃ¡ aberto"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.sale_blanket_order_line_form
 msgid "Sale Blanket Order Line"
-msgstr ""
+msgstr "Linha de Pedido em Aberto de Venda"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__line_count
 msgid "Sale Blanket Order Line count"
-msgstr ""
+msgstr "Quantidade de linhas do pedido em aberto de venda"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__sale_count
 msgid "Sale Count"
-msgstr ""
+msgstr "Quantidade de Vendas"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.sale_blanket_order_line_form
 msgid "Sale Order Lines"
-msgstr ""
+msgstr "Linhas do Pedido de Venda"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Sale Orders"
-msgstr ""
+msgstr "Pedidos de Venda"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__sale_lines
 msgid "Sale order lines"
-msgstr ""
+msgstr "Linhas do pedido de venda"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Sales Information"
-msgstr ""
+msgstr "InformaÃ§Ãµes de Venda"
 
 #. module: sale_blanket_order
 #: model:ir.model,name:sale_blanket_order.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "Pedido de Venda"
 
 #. module: sale_blanket_order
 #: model:ir.model,name:sale_blanket_order.model_sale_order_line
 msgid "Sales Order Line"
-msgstr ""
+msgstr "Linha do Pedido de Venda"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/wizard/create_sale_orders.py:0
 #, python-format
 msgid "Sales Orders"
-msgstr ""
+msgstr "Pedidos de Venda"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__team_id
 msgid "Sales Team"
-msgstr ""
+msgstr "Equipe de Vendas"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__user_id
 msgid "Salesperson"
-msgstr ""
+msgstr "Vendedor"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__date_schedule
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__date_schedule
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "Scheduled Date"
-msgstr ""
+msgstr "Data Agendada"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.sale_blanket_order_line_search
 msgid "Search Sale Blanket Order Line"
-msgstr ""
+msgstr "Pesquisar Linha de Pedido em Aberto de Venda"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields.selection,name:sale_blanket_order.selection__sale_blanket_order_line__display_type__line_section
 msgid "Section"
-msgstr ""
+msgstr "SeÃ§Ã£o"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "SequÃªncia"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Setup default terms and conditions in your company settings."
 msgstr ""
+"Configure termos e condiÃ§Ãµes padrÃ£o nas configuraÃ§Ãµes da sua empresa."
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__state
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__activity_state
@@ -830,21 +849,25 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status com base em atividades\n"
+"Atrasado: a data de vencimento jÃ¡ passou\n"
+"Hoje: a data da atividade Ã© hoje\n"
+"Planejado: atividades futuras."
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__price_subtotal
 msgid "Subtotal"
-msgstr ""
+msgstr "Subtotal"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__tag_ids
 msgid "Tags"
-msgstr ""
+msgstr "Marcadores"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__price_tax
 msgid "Tax"
-msgstr ""
+msgstr "Imposto"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__amount_tax
@@ -852,17 +875,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__taxes_id
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "Taxes"
-msgstr ""
+msgstr "Impostos"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__display_type
 msgid "Technical field for UX purpose."
-msgstr ""
+msgstr "Campo tÃ©cnico para finalidade de UX."
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Termos e CondiÃ§Ãµes"
 
 #. module: sale_blanket_order
 #. odoo-python
@@ -871,60 +894,61 @@ msgstr ""
 msgid ""
 "The currency of the blanket order must match with that of the sale order."
 msgstr ""
+"A moeda do pedido em aberto deve corresponder Ã  moeda do pedido de venda."
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/models/sale_orders.py:0
 #, python-format
 msgid "The customer must be equal to the blanket order lines customer"
-msgstr ""
+msgstr "O cliente deve ser igual ao cliente das linhas do pedido em aberto"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/models/sale_orders.py:0
 #, python-format
 msgid "The product in the blanket order and in the sales order must match"
-msgstr ""
+msgstr "O produto no pedido em aberto e no pedido de venda deve coincidir"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/wizard/create_sale_orders.py:0
 #, python-format
 msgid "The sale has already been completed."
-msgstr ""
+msgstr "A venda jÃ¡ foi concluÃ­da."
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
 msgid "To Draft"
-msgstr ""
+msgstr "Para Rascunho"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__amount_total
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__price_total
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__activity_exception_decoration
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Tipo da atividade de exceÃ§Ã£o no registro."
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "Unit Price"
-msgstr ""
+msgstr "PreÃ§o UnitÃ¡rio"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__product_uom
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__product_uom
 msgid "Unit of Measure"
-msgstr ""
+msgstr "Unidade de Medida"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__amount_untaxed
 msgid "Untaxed Amount"
-msgstr ""
+msgstr "Valor sem Impostos"
 
 #. module: sale_blanket_order
 #: model_terms:ir.actions.act_window,help:sale_blanket_order.act_open_blanket_order_view
@@ -933,52 +957,57 @@ msgid ""
 "                you can track the related discussion with the customer, control\n"
 "                the products delivered and control the vendor bills."
 msgstr ""
+"Use este menu para pesquisar em seus pedidos em aberto. Para cada pedido em "
+"aberto,\n"
+"                vocÃª pode acompanhar a conversa relacionada com o cliente, "
+"controlar\n"
+"                os produtos entregues e controlar as faturas de fornecedor."
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.report_blanketorder_document
 msgid "VAT:"
-msgstr ""
+msgstr "CNPJ/CPF:"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__validity_date
 msgid "Validity Date"
-msgstr ""
+msgstr "Data de Validade"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/models/blanket_orders.py:0
 #, python-format
 msgid "Validity date is mandatory"
-msgstr ""
+msgstr "A data de validade Ã© obrigatÃ³ria"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/models/blanket_orders.py:0
 #, python-format
 msgid "Validity date must be in the future"
-msgstr ""
+msgstr "A data de validade deve estar no futuro"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__partner_id
 msgid "Vendor"
-msgstr ""
+msgstr "Fornecedor"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__website_message_ids
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Mensagens do Site"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order__website_message_ids
 #: model:ir.model.fields,help:sale_blanket_order.field_sale_blanket_order_line__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "HistÃ³rico de comunicaÃ§Ã£o do site"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_wizard_line__wizard_id
 msgid "Wizard"
-msgstr ""
+msgstr "Assistente"
 
 #. module: sale_blanket_order
 #. odoo-python
@@ -988,6 +1017,8 @@ msgid ""
 "You can not delete a blanket order with opened sale orders! Try to cancel "
 "them before."
 msgstr ""
+"VocÃª nÃ£o pode excluir um pedido em aberto com pedidos de venda abertos! "
+"Tente cancelÃ¡-los antes."
 
 #. module: sale_blanket_order
 #. odoo-python
@@ -997,6 +1028,8 @@ msgid ""
 "You can not delete an open blanket or with active sale orders! Try to cancel"
 " it before."
 msgstr ""
+"VocÃª nÃ£o pode excluir um pedido em aberto aberto ou com pedidos de venda "
+"ativos! Tente cancelÃ¡-lo antes."
 
 #. module: sale_blanket_order
 #. odoo-python
@@ -1004,24 +1037,26 @@ msgstr ""
 #, python-format
 msgid "You can't create a sale order from an expired blanket order!"
 msgstr ""
+"VocÃª nÃ£o pode criar um pedido de venda a partir de um pedido em aberto "
+"expirado!"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/wizard/create_sale_orders.py:0
 #, python-format
 msgid "You can't order more than the remaining quantities"
-msgstr ""
+msgstr "VocÃª nÃ£o pode pedir mais do que as quantidades restantes"
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/wizard/create_sale_orders.py:0
 #, python-format
 msgid "You have to select lines from the same company."
-msgstr ""
+msgstr "VocÃª precisa selecionar linhas da mesma empresa."
 
 #. module: sale_blanket_order
 #. odoo-python
 #: code:addons/sale_blanket_order/models/blanket_orders.py:0
 #, python-format
 msgid "remaining"
-msgstr ""
+msgstr "restante"
