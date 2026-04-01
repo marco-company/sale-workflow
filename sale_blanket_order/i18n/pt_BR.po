@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-04-01 15:08+0000\n"
+"PO-Revision-Date: 2026-04-01 16:19+0000\n"
 "Last-Translator: Cristiano Mafra Junior <cristiano.mafracontanto@gmail.com>\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -96,7 +96,7 @@ msgstr "Atividades"
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_exception_decoration
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "DecoraÃ§Ã£o de ExceÃ§Ã£o de Atividade"
+msgstr "Decoração de Exceção de Atividade"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__activity_state
@@ -145,17 +145,17 @@ msgstr "Analá­tico"
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__analytic_account_id
 msgid "Analytic Account"
-msgstr "Conta AnalÃ­tica"
+msgstr "Conta Analática"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__analytic_distribution_search
 msgid "Analytic Distribution Search"
-msgstr "Pesquisa de DistribuiÃ§Ã£o AnalÃ­tica"
+msgstr "Pesquisa de Distribuição Analítica"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order_line__analytic_precision
 msgid "Analytic Precision"
-msgstr "PrecisÃ£o AnalÃ­tica"
+msgstr "Precisão Analítica"
 
 #. module: sale_blanket_order
 #: model:ir.model.fields,field_description:sale_blanket_order.field_sale_blanket_order__message_attachment_count
@@ -216,8 +216,8 @@ msgstr "Linha do assistente de pedido em aberto"
 msgid ""
 "Can not create Sale Order from Blanket Order lines with different currencies"
 msgstr ""
-"NÃ£o Ã© possÃ­vel criar Pedido de Venda a partir de linhas de Pedido em "
-"Aberto com moedas diferentes"
+"Não é possível criar Pedido de Venda a partir de linhas de Pedido em Aberto "
+"com moedas diferentes"
 
 #. module: sale_blanket_order
 #: model_terms:ir.ui.view,arch_db:sale_blanket_order.view_blanket_order_form
